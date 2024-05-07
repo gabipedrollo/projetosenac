@@ -1,0 +1,136 @@
+/* Estilos gerais */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos das faixas */
+.intro {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services, .portfolio, .advantages, .contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Estilos dos títulos e textos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilos para dispositivos menores */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Estilo para as imagens e títulos */
+.services-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.services-images .service {
+  text-align: center;
+  width: 30%; 
+}
+
+.services-images .service img {
+  width: 100%;
+  height: auto;
+}
+
+.services-images .service h3 {
+  margin-top: 10px;
+}
+
+/* Estilo para os projetos */
+.project {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project img {
+  width: 50%; 
+  height: auto;
+}
+
+.project p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Estilos para o formulário de contato */
+.contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact h2 {
+    color: #333;
+  }
+  
+  .contact p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .contact form label {
+    font-weight: bold;
+  }
+  
+  .contact form input[type="text"],
+  .contact form input[type="email"],
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form textarea {
+    resize: vertical;
+  }
+  
+  .contact form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact form button:hover {
+    background-color: #555;
+  }
